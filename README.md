@@ -9,4 +9,4 @@ Live Website: https://online-edu-monib.netlify.app/
 # Top Feature
 * Learn Online
 * Many courses
-* Professional Instructor
+* Professional Instructors
