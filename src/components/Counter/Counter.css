@@ -1,0 +1,26 @@
+.counter{
+    background-image: url('https://image.freepik.com/free-photo/business-handshake-two-men-demonstrating-their-agreement-sign-agreement-contract-their-firms-companies-enterprises_1423-100.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.counter::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5;
+}
+.single-counter{
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .counter{
+        height: 100%;
+    }
+ }

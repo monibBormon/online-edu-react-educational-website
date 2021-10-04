@@ -1,0 +1,7 @@
+.single-feature{
+    transition: .3s all;
+}
+.single-feature:hover .feature-icon i{
+    border-color: white;
+    background-color: white;
+}
