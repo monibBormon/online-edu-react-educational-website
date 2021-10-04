@@ -19,6 +19,9 @@ const Header = () => {
                         <NavLink style={{ transition: '.3s all' }} className='p-3 md:font-semibold text-lg font-medium border-b-2 border-t-2  border-transparent md:text-xl hover:text-blue-500 hover:border-blue-500' to='/services'>
                             Services
                         </NavLink>
+                        <NavLink style={{ transition: '.3s all' }} className='p-3 md:font-semibold text-lg font-medium border-b-2 border-t-2  border-transparent md:text-xl hover:text-blue-500 hover:border-blue-500' to='/blogs'>
+                            Blogs
+                        </NavLink>
                         <NavLink style={{ transition: '.3s all' }} className='p-3 md:font-semibold text-lg font-medium border-b-2 border-t-2  border-transparent md:text-xl hover:text-blue-500 hover:border-blue-500' to='/contact'>
                             Contact Us
                         </NavLink>

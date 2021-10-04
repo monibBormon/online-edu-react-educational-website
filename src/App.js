@@ -7,6 +7,7 @@ import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route path='/blogs'>
+            <Blog></Blog>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>
